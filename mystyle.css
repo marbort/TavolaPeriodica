@@ -1,0 +1,221 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+}
+  /* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.centered-small {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+.centered-grey {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: grey;
+}
+
+.centeredbig {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Bottom left text */
+.bottom-centered {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.bottom-centered-grey {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-centered {
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.top-centered-grey {
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.pane {
+    display: inline-block;
+    overflow-y: visible;
+    max-height:9vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  }
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    }
+
+
+h3 {
+  text-align: right;
+}
+
+text1 {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 2.5vh; !was24px
+}
+
+text1small {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 2.5vh; !was20px
+}
+
+text1big {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 2.5vh; !was30px
+}
+
+t2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+
+#table1 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  padding: 1px;
+
+  }
+
+#table2 {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 100px 10px;
+  padding-top: 1px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: justify;
+  margin auto auto;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+
+}
+
+#tablediv{
+    overflow-y: scroll;
+    heigth: 100%
+  }
+
+td{
+    vertical-align: middle;
+    /*border: 1px solid black;*/
+}
+/*border: 1px solid black*/
+/*  td{
+    border: 1px solid black;
+    height: 30vh;
+  }*/
+
+
+:root{
+  --size: 100px;
+}
