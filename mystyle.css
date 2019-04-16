@@ -5,6 +5,108 @@
   color: black;
   height: 9vh;
   width: 9vh;
+
+}
+
+.container_nonmetals {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 2px solid lime;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0px;
+
+}
+
+.container_noble {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid deepskyblue;
+
+}
+
+.container_alkali {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid orange;
+  border-collapse: collapse;
+  margin: 0px;
+
+}
+
+.container_earth_alkali {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid yellow;
+
+}
+
+.container_transition {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid pink;
+
+}
+.container_metalloids {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid seagreen;
+
+}
+
+.container_posttransition {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid darkturquoise;
+
+}
+
+.container_lanthanides {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid violet;
+
+}
+.container_actinides {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid chocolate;
+}
+
+.container_null {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 9vh;
+  width: 9vh;
+  border: 0.3vh solid white;
 }
   /* Centered text original 30px*/
 .centered {
@@ -35,7 +137,7 @@
   transform: translate(-50%, -50%);
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 3vh; 
+  font-size: 3vh;
   color: grey;
 }
 
@@ -178,9 +280,9 @@ t2 {
 
 
 #table1 {
-  border-collapse: separate;
-  border-spacing: 1px;
-  padding: 1px;
+  border-collapse: collapse;
+  border-spacing: 0px;*/
+  padding: 0px;
 
   }
 
@@ -204,9 +306,12 @@ t2 {
     overflow-y: scroll;
     heigth: 100%
   }
-
+table{ border-collapse: collapse;
+border 0px solid white;}
 td{
     vertical-align: middle;
+    border-collapse: collapse;
+    padding: 1px;
     /*border: 1px solid black;*/
 }
 /*border: 1px solid black*/
@@ -219,3 +324,5 @@ td{
 :root{
   --size: 100px;
 }
+
+body{background-color: transparent;}
