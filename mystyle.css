@@ -8,6 +8,17 @@
 
 }
 
+.container_img {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 23vh;
+  width: 23vh;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
 .container_nonmetals {
   position: relative;
   text-align: center;
@@ -312,7 +323,7 @@ td{
     vertical-align: middle;
     border-collapse: collapse;
     padding: 1px;
-    /*border: 1px solid black;*/
+  /*  border: 1px solid black;*/
 }
 /*border: 1px solid black*/
 /*  td{
