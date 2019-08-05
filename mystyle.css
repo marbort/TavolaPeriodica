@@ -6,6 +6,24 @@
   height: 9vh;
   width: 9vh;
 }
+.inline_container{
+  display: inline-block;
+}
+.center_container{
+  text-align: center;
+  padding: 3vh;
+}
+.justify_container{
+  text-align: justify;
+  padding: 3vh;
+}
+.container_big {
+  position: relative;
+  margin: auto;
+  color: black;
+  overflow-y: scroll;
+  max-width: 80vw;
+}
   /* Centered text original 30px*/
 .centered {
   position: absolute;
