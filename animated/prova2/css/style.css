@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body{
+	height: 100%;
+	width: 100%:
+}
+
+.container{
+	height: 100%;
+	width: 95%;
+	margin: auto;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.header{
+	width: 100%;
+	background-color: #9B0014;
+	margin: auto;
+}
+
+.header h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	
+}
+
+#flexbox{
+	display: flex;
+	width: 100%;
+}
+
+#column_left{
+	width: 40%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 1%;
+	border: 1px solid blue;
+	flex: 1;
+}
+
+#column_right{
+	flex: 1;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1%;
+	border: 1px solid red;
+	float:left;
+	
+}
+
+#column_left p{
+	text-align: justify;
+	font-size: 120%;
+}
+
+.secondary_header {
+	width: 100%;
+    height: 35px;
+	background-color: #9B0014;
+	clear: left;
+	display: table;	
+
+}
+
+.footer {
+	background-color: #9B0014;
+	width: 100%;
+	display: table;	
+	margin:auto;
+}
+
+
+.copyright {
+    text-align: center;
+    background-color: #9B0014;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    font-family: "Source Sans Pro";
+	padding-top:10px;
+}
+
