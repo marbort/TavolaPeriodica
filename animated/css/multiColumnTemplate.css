@@ -21,7 +21,7 @@ home{
 }
 .row {
 	width: 100%;
-	height: 60px;
+	height: 7vh;
 	margin-top: 5px;
 	margin-right: 0px;
 	margin-bottom: 5px;
@@ -93,7 +93,7 @@ home{
 
 }
 .secondary_header {
-	height: 30px;
+	height: 3vh;
 	width: 30%;
 	text-align: center;
 }
@@ -101,8 +101,8 @@ home{
 .secondary_header a{
 	
 	color: white;
-	line-height: 25px;
-	font-size: 25px;
+	line-height: 3.3vh;
+	font-size: 2.5vh;
 	text-align: center;
 	text-decoration: none;
 
@@ -112,7 +112,7 @@ home{
 
 .row_footer {
 	width: 100%;
-	height: 30px;
+	height: 3vh;
 	margin-top: 5px;
 	margin-right: 0px;
 	margin-bottom: 5px;
@@ -316,8 +316,14 @@ home{
     font-family: "Source Sans Pro";
 	float: left;
 	flex:1 0;
-	font-size: 25px;
-	line-height: px;
+	font-size: 2.5vh;
+	line-height: 3.3vh;
+}
+
+.copyright a{
+	
+	color: white;
+	text-decoration: none;
 }
 .leftpart{
 	height: 70%;
