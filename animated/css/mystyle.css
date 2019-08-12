@@ -128,7 +128,7 @@
 	padding-bottom: 0px;
 	padding-left: 0px;
 	overflow: scroll;
-	height: 88vh;
+	height: 87vh;
 	
 }
 
@@ -177,8 +177,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
 
 }
 
@@ -186,8 +186,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 2px solid lime;
   border-collapse: collapse;
   margin: 0;
@@ -199,8 +199,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid deepskyblue;
 
 }
@@ -209,8 +209,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid orange;
   border-collapse: collapse;
   margin: 0px;
@@ -221,8 +221,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid yellow;
 
 }
@@ -231,8 +231,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid pink;
 
 }
@@ -240,8 +240,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid seagreen;
 
 }
@@ -250,8 +250,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid darkturquoise;
 
 }
@@ -260,8 +260,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid violet;
 
 }
@@ -269,8 +269,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid chocolate;
 }
 
@@ -278,8 +278,8 @@ center_container{
   position: relative;
   text-align: center;
   color: black;
-  height: 8vh;
-  width: 8vh;
+  height: 7.5vh;
+  width: 7.5vh;
   border: 0.3vh solid white;
 }
   /* Centered text original 30px*/
@@ -505,7 +505,6 @@ td{
 	color: #000000;
 	text-align: center;
 	height: 25vh;
-	border: 1px solid black;
 	
 }
 
