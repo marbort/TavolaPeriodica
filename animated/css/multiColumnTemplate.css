@@ -187,7 +187,7 @@ home{
 	margin-top: 2%;
 	color: #000000;
 	font-weight: bold;
-	font-size: 130%;
+	font-size: 2.8vh;
 	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 	
 }
@@ -195,10 +195,10 @@ home{
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: justify;
-	line-height: 130%;
+	line-height: normal;
 	margin-top: 2%;
 	margin-bottom: 15px;
-	font-size: 140%;
+	font-size: 2.7vh;
 	color: #000000;
 	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 }
@@ -211,7 +211,7 @@ home{
 	line-height: 130%;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	font-size: 140%;
+	font-size: 2.8vh;
 	color: #000000;
 }
 .right_article {
@@ -327,6 +327,7 @@ home{
 	
 	color: white;
 	text-decoration: none;
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 }
 .leftpart{
 	height: 70%;
