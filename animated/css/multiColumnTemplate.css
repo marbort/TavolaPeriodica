@@ -164,7 +164,7 @@ home{
 	font-family: "Source Sans Pro";
 	color: #000000;
 	padding-bottom: 15px;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 84vh;
 }
 
@@ -202,6 +202,7 @@ home{
 }
 
 .container .left_article h2 {
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
@@ -344,7 +345,7 @@ home{
 
 .logo img{
 	
-	height:50px;
+	height: 5.5vh;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	

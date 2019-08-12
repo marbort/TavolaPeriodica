@@ -15,7 +15,12 @@
 }
 
 
-
+.containerall{
+	
+	width: 95%;
+	height: 100vh;
+	margin: auto;
+}
 
 
 .logo{
@@ -133,9 +138,9 @@
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: 2px;
-    font-family: "Source Sans Pro";
 	float: left;
 	flex:1 0;
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 	font-size:2.5vh;
 	line-height: 3.3vh;
 }
@@ -144,6 +149,7 @@
 	
 	color: white;
 	text-decoration: none;
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 }
 
 
