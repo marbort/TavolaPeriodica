@@ -188,6 +188,7 @@ home{
 	color: #000000;
 	font-weight: bold;
 	font-size: 130%;
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 	
 }
 .container .left_article p {
@@ -199,6 +200,7 @@ home{
 	margin-bottom: 15px;
 	font-size: 140%;
 	color: #000000;
+	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 }
 
 .container .left_article h2 {
