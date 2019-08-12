@@ -182,6 +182,16 @@ center_container{
 
 }
 
+.container_doublewidth {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+
+}
+
+
 .container_nonmetals {
   position: relative;
   text-align: center;
@@ -195,6 +205,25 @@ center_container{
 
 }
 
+.square_nonmetals{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: lime;
+}
+
+.container_doublewidth_nonmetals {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: lime;
+  border-radius: 10px;
+
+}
+
+
 .container_noble {
   position: relative;
   text-align: center;
@@ -205,6 +234,24 @@ center_container{
 
 }
 
+.square_noble{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: deepskyblue;
+}
+
+.container_doublewidth_noble {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: deepskyblue;
+  border-radius: 10px;
+}
+
+
 .container_alkali {
   position: relative;
   text-align: center;
@@ -214,6 +261,23 @@ center_container{
   border: 0.3vh solid orange;
   border-collapse: collapse;
   margin: 0px;
+}
+
+.square_alkali{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: orange;
+}
+
+.container_doublewidth_alkali {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: orange;
+  border-radius: 10px;
 
 }
 
@@ -227,6 +291,24 @@ center_container{
 
 }
 
+.square_earth_alkli{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: yellow;
+}
+
+.container_doublewidth_earth_alkali {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: yellow;
+  border-radius: 10px;
+
+}
+
 .container_transition {
   position: relative;
   text-align: center;
@@ -236,6 +318,24 @@ center_container{
   border: 0.3vh solid pink;
 
 }
+
+.square_transition{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: pink;
+}
+
+.container_doublewidth_transition {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: pink;
+  border-radius: 10px;
+
+}
 .container_metalloids {
   position: relative;
   text-align: center;
@@ -243,8 +343,27 @@ center_container{
   height: 7.5vh;
   width: 7.5vh;
   border: 0.3vh solid seagreen;
+}
+
+.square_metalloids{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: seagreen;
+}
+
+.container_doublewidth_metalloids {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: seagreen;
+  border-radius: 10px;
 
 }
+
+
 
 .container_posttransition {
   position: relative;
@@ -256,6 +375,23 @@ center_container{
 
 }
 
+.square_posttransition{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: darkturquoise;
+}
+
+.container_doublewidth_posttransition {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: darkturquoise;
+  border-radius: 10px;
+
+}
 .container_lanthanides {
   position: relative;
   text-align: center;
@@ -263,6 +399,23 @@ center_container{
   height: 7.5vh;
   width: 7.5vh;
   border: 0.3vh solid violet;
+}
+
+.square_lanthanides{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: violet;
+}
+
+.container_doublewidth_lanthanides {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: violet;
+  border-radius: 10px;
 
 }
 .container_actinides {
@@ -272,6 +425,24 @@ center_container{
   height: 7.5vh;
   width: 7.5vh;
   border: 0.3vh solid chocolate;
+}
+
+.square_actinides{
+	height: 5vh;
+  	width: 5vh;
+	border-radius:10px;
+	background-color: chocolate;
+}
+
+.container_doublewidth_actinides {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 7.5vh;
+  width: 15vh;
+  background-color: chocolate;
+  border-radius: 10px;
+
 }
 
 .container_null {
@@ -304,6 +475,37 @@ center_container{
   font-size: 2vh;
   color: black;
 }
+
+.left-small {
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  transform: translate(-20%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: black;
+  width: 100%;
+}
+
+.center-small_double {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: black;
+  width: 100%;
+}
+
+.center-small_double:hover .container_actinides{
+	background-color: aqua;
+}
+
+
 .centered-grey {
   position: absolute;
   top: 50%;
