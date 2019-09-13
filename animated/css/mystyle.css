@@ -63,9 +63,9 @@
 .row_footer {
 	width: 100%;
 	height:3vh;
-	margin-top: 5px;
+	margin-top: 0.25vh;
 	margin-right: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 0.25vh;
 	margin-left: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
@@ -96,7 +96,7 @@
 .secondary_header a{
 	
 	color: white;
-	line-height: 3vh;
+	/*line-height: 3vh;*/
 	font-size: 2.5vh;
 	text-align: center;
 	text-decoration: none;
@@ -143,7 +143,7 @@
 	flex:1 0;
 	font-family: "Gill Source Pro", "Times New Roman", Times, serif;
 	font-size:2.5vh;
-	line-height: 3.3vh;
+	line-height: 3vh;
 }
 
 .copyright a{
@@ -1109,4 +1109,90 @@ body{
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight
+}
+
+
+@media (min-width: 321px) and (max-width: 1000px) {
+  .title {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0.5vh;
+  font-size: 2.5vh;
+  line-height: 2vh;
+  
+}
+
+.logo{
+  width: 15%;
+  max-height: 100%;
+  text-align: center;
+}
+
+.logo img{
+  
+  height: 5vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  
+}
+.secondary_header {
+  height: 3vh;
+  width: 30%;
+  text-align: center;
+  
+}
+
+.secondary_header a{
+  
+  color: white;
+  /*line-height: 2.5vh;*/
+  font-size: 2.5vh;
+  text-align: center;
+  text-decoration: none;
+
+  
+}
+.copyright {
+    text-align: center;
+    background-color: #9B0014;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+  float: left;
+  flex:1 0;
+  font-family: "Gill Source Pro", "Times New Roman", Times, serif;
+  
+}
+
+.copyright a{
+  
+  color: white;
+  text-decoration: none;
+  font-family: "Gill Source Pro", "Times New Roman", Times, serif;
+  font-size: 2.5vh;
+  /*line-height:  2.5vh;*/
+}
+
+.row_footer {
+  width: 100%;
+  height:3vh;
+  margin-top: 0.5vh;
+  margin-right: 0px;
+  margin-bottom: 0.5vh;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  background-color: #9B0014;
+  border-radius: 10px;
+}
+
+
 }

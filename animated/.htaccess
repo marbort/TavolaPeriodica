@@ -1,0 +1,8 @@
+# htaccess
+AuthName "Login"
+AuthUserFile /usr/local/etc/httpd/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+<LIMIT GET POST>
+require valid-user
+</LIMIT>
