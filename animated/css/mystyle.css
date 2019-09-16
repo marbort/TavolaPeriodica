@@ -43,6 +43,29 @@
 	border-radius: 10px;
 }
 
+.logo_unipd{
+  width: 10%;
+  max-height: 100%;
+  text-align: center;
+  background-image: url(../images/unipd_white_full.png);
+  background-repeat: no-repeat;
+  background-size: auto 5.5vh;
+  background-position: center;
+}
+
+.logo_unipd img{
+  
+  height: 5.5vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.logo_unipd:hover{
+  background-color: #4C0009;
+  border-radius: 10px;
+}
+
 .row {
 	width: 100%;
 	height: 7vh;
@@ -111,7 +134,7 @@
 	font-style: normal;
 	text-align: center;
 	color: #FFFFFF;
-	letter-spacing: 2px;
+	
 	font-size: 4vh;
 	line-height: 15px;
 	
@@ -617,6 +640,7 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 2vh;
+
   }
 
 h2 {
@@ -1119,10 +1143,19 @@ body{
   font-style: normal;
   text-align: center;
   color: #FFFFFF;
-  letter-spacing: 0.5vh;
   font-size: 2.5vh;
   line-height: 2vh;
   
+}
+
+.logo_unipd{
+  width: 15%;
+  max-height: 100%;
+  text-align: center;
+  background-image: url(../images/unipd_white_small.png);
+  background-repeat: no-repeat;
+  background-size: auto 6vh;
+  background-position: center;
 }
 
 .logo{
