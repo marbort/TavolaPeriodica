@@ -1,0 +1,25 @@
+	</p>
+		
+		<h2 class="fadeInUp animated"> <strong><a href="./PeriodicTable.html"> HOME </a></strong></h2>
+		 
+	  	</article>
+	
+		
+		
+		
+   	 	<div class="right_article fadeInRight animated">
+			<img src="../foto/pasta.jpg" alt=""/> 
+	  	</div>
+	  </section>
+  
+	<footer>
+		<div class="row_footer">
+  			<div class="secondary_header" data-anijs="if: mouseover, do: rubberBand animated"><a href="about.html">About </a></div>
+			<div class="copyright"> <a href="../pasta.html"> Italian Version </a> </div>
+			<div class="secondary_header" data-anijs="if: mouseover, do: rubberBand animated"><a href="autori.pdf">Authors</a></div>
+		</div>
+	</footer>
+</div>
+	<script src="../css/anijs.js"></script>
+</body>
+</html>
