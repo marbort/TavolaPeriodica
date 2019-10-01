@@ -730,7 +730,9 @@ td{
 	font-family: "Source Sans Pro";
 	color: #000000;
 	text-align: center;
-	height: 25vh;
+  height: 25vh;
+  overflow-y: scroll;
+  
 	
 }
 
